@@ -4,7 +4,12 @@ let obj = JSON.parse($response.body);
 const keywords = [
     "补贴",
     "五一",
-    "出行补贴",
+    "十一",
+    "门槛",
+    "红包",
+    "福利",
+    "领取",
+    "扫街",
     "promotion",
     "subsidy",
     "AIPROMOTION",
