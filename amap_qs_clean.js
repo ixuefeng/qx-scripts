@@ -1,40 +1,55 @@
 let obj = JSON.parse($response.body);
 
-// 安全判断
-if (obj && obj.component && obj.component.data && obj.component.data.data) {
-    let data = obj.component.data.data;
+// 关键词（补贴广告特征）
+const keywords = [
+    "补贴",
+    "五一",
+    "出行补贴",
+    "promotion",
+    "subsidy",
+    "AIPROMOTION",
+    "yearEndPromotion"
+];
 
-    // 递归清理函数
-    function cleanModules(modules) {
-        if (!modules) return modules;
+// 判断是否命中广告
+function isAdModule(m) {
+    let str = JSON.stringify(m);
 
-        for (let key in modules) {
-            let m = modules[key];
+    // 命中关键词
+    if (keywords.some(k => str.includes(k))) return true;
 
-            // 删除营销 / 红包 / 活动
-            if (JSON.stringify(m).includes("AIPROMOTION") ||
-                JSON.stringify(m).includes("red_packet") ||
-                JSON.stringify(m).includes("yearEndPromotion") ||
-                JSON.stringify(m).includes("promotionVenue")) {
-                delete modules[key];
+    // 命中营销结构
+    if (m?.data?.ButtonFloat) return true;
+    if (m?.data?.SubTitle?.text?.includes("福利")) return true;
+    if (m?.data?.AssistInfo?.text?.includes("领取")) return true;
+
+    return false;
+}
+
+// 递归清理
+function clean(obj) {
+    if (!obj || typeof obj !== "object") return;
+
+    for (let key in obj) {
+        let val = obj[key];
+
+        if (typeof val === "object") {
+
+            if (isAdModule(val)) {
+                delete obj[key];
                 continue;
             }
-            
-            // 删除补贴/活动类卡片
-            if (JSON.stringify(m).includes("补贴") ||
-                JSON.stringify(m).includes("五一") ||
-                JSON.stringify(m).includes("出行补贴") ||
-                JSON.stringify(m).includes("subsidy") ||
-                JSON.stringify(m).includes("promotion")) {
-                delete modules[key];
-                continue;
-            }            
 
-            // 删除众验 / 问答任务
-            if (JSON.stringify(m).includes("publicverify") ||
-                JSON.stringify(m).includes("这个门汽车可以进入吗")) {
-                delete modules[key];
-                continue;
+            clean(val);
+        }
+    }
+}
+
+// 执行清理
+clean(obj);
+
+// 输出
+$done({ body: JSON.stringify(obj) });                continue;
             }
 
             // 删除所有带 ButtonFloat（营销按钮）的
