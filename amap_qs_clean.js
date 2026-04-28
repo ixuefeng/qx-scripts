@@ -19,6 +19,16 @@ if (obj && obj.component && obj.component.data && obj.component.data.data) {
                 delete modules[key];
                 continue;
             }
+            
+            // 删除补贴/活动类卡片
+            if (JSON.stringify(m).includes("补贴") ||
+                JSON.stringify(m).includes("五一") ||
+                JSON.stringify(m).includes("出行补贴") ||
+                JSON.stringify(m).includes("subsidy") ||
+                JSON.stringify(m).includes("promotion")) {
+                delete modules[key];
+                continue;
+            }            
 
             // 删除众验 / 问答任务
             if (JSON.stringify(m).includes("publicverify") ||
