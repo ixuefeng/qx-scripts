@@ -27,6 +27,11 @@ if (obj && obj.component && obj.component.data && obj.component.data.data) {
                 continue;
             }
 
+            // 删除所有带 ButtonFloat（营销按钮）的
+            if (m.data && m.data.ButtonFloat) {
+                delete modules[key];
+            }
+
             // 递归子结构
             if (typeof m === "object") {
                 cleanModules(m);
