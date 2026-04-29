@@ -1,13 +1,1 @@
-# Bilibili
-host, api.bilibili.com, China
-host, comment.bilibili.com, China
-host, api.biliapi.net, China
-host, api.bilibili.tv, China
-host, s1.hdslb.com, China
-host-suffix, bilibili.com, China
-
-# Dingdong Maicai
-host, maicai.api.ddxq.mobi, China
-host, pubgw.api.ddxq.mobi, China
-host, gw.api.ddxq.mobi, China
-host, base-push-service.ddxq.mobi, China
+#
