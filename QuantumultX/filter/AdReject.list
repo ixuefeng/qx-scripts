@@ -269,6 +269,12 @@ host, s.chuimg.com, reject
 HOST, track.xiachufang.com, REJECT
 host, trackbeat.xiachufang.com, reject
 
+#小红书
+host, ads-img-qc.xhscdn.com, reject
+host, ads-video-al.xhscdn.com, reject
+host, ads-video-qc.xhscdn.com, reject
+host, t-ads.xiaohongshu.com, reject
+
 #萤石
 host, log.ys7.com, reject
 
