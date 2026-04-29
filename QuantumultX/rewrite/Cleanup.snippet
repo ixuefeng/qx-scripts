@@ -34,7 +34,7 @@
 ^https:\/\/oa\.chinaforwards\.com:8088\/api\/system\/info\/getOSinfo url reject
 
 # 哔哩哔哩
-^https?://app\.bilibili\.com/x/v2/splash/(brand/list|event/list2|list|show)\? -url script-response-body https://raw.githubusercontent.com/fmz200/wool_scripts/main/Scripts/bilibili/json.js
+#^https?://app\.bilibili\.com/x/v2/splash/(brand/list|event/list2|list|show)\? -url script-response-body https://raw.githubusercontent.com/fmz200/wool_scripts/main/Scripts/bilibili/json.js
 ^https?://[\d\.]+:8000/v1/resource/\w{32}-1-SPLASH url reject-dict
 ^https?://upos-sz-static\.bilivideo\.com/ssaxcode/\w{2}/\w{2}/\w{32}-1-SPLASH url reject-dict
 ^https?://api\.bilibili\.com/x/mengqi/v1/resource\? url reject-dict
@@ -113,7 +113,7 @@
 ^https://www\.googleadservices\.com url reject
 
 # 航旅纵横
-^http?://(114\.115\.217\.129)|(home\.umetrip\.com)/gateway/api/umetrip/native$ -url script-response-body https://raw.githubusercontent.com/fmz200/wool_scripts/main/Scripts/Umetrip_remove_ads.js
+#^http?://(114\.115\.217\.129)|(home\.umetrip\.com)/gateway/api/umetrip/native$ -url script-response-body https://raw.githubusercontent.com/fmz200/wool_scripts/main/Scripts/Umetrip_remove_ads.js
 ^http?://(discardrp|startup)\.umetrip\.com/gateway/api/umetrip/native url reject
 
 # 建设银行
