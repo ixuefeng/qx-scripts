@@ -50,6 +50,9 @@ host-suffix, gepush.com, reject
 host-suffix, getui.com, reject
 host-suffix, getui.net, reject
 
+#极光推送
+host-suffix, jpush.cn, reject
+
 # Tencent
 ip-cidr, 119.29.29.90/32, REJECT
 host, ad.tencentvideo.com, REJECT
