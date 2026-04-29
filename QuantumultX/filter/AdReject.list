@@ -1,0 +1,56 @@
+# 广告统计分析跟踪
+HOST-SUFFIX,shuzilm.cn, REJECT
+host-suffix, e.qq.com, reject
+host, wwads.cn, REJECT
+host-suffix, appsflyersdk.com, REJECT
+host-suffix, appsflyer.com, REJECT
+host-suffix, api.snapkit.com, REJECT
+host-suffix, kit.snapchat.com, REJECT
+host-suffix, snapkit.com, REJECT
+host, statistic.live.126.net, reject
+host, ins.xfyun.cn, reject
+host, analytics.oceanengine.com, reject
+host, gator.volces.com, reject
+host, apmplus.volces.com, reject
+host, mssdk.volces.com, reject
+host-suffix, sentry.io, reject
+host-suffix, 66mobi.com, reject
+host-suffix, fancydsp.com, reject
+host-suffix, zztfly.com, reject
+host-suffix, shanghailingye.cn, reject
+host-suffix, fancyapi.com, reject
+host-suffix, hubcloud.com.cn, reject
+host-suffix, beizi.biz, reject
+host-suffix, yfanads.com, reject
+host-suffix, adwangmai.com, reject
+host, tnc3-alisc1.zijieapi.com, reject
+host, open.e.kuaishou.com, reject
+host, tongji.dcloud.io, reject
+HOST-SUFFIX,admaster.com.cn,REJECT
+HOST-SUFFIX,tanx.com,REJECT
+host, ztoken.uyunad.com, reject
+host, sdk.llyclub.cn, reject
+host, gdfp.gifshow.com, reject
+host, g.cn.miaozhen.com, reject
+host, api.segment.io, reject
+host-suffix, tec73.com, reject
+host-suffix, mmstat.com, reject
+host-suffix, sogou.com, reject
+# 友盟广告
+host-suffix, umeng.com, reject
+host-suffix, umengcloud.com, reject
+# 字节穿山甲广告
+host-suffix, pangolin-sdk-toutiao.com, reject
+host-suffix, pangolin-sdk-toutiao1.com, reject
+# Tencent
+ip-cidr, 119.29.29.90/32, REJECT
+host, ad.tencentvideo.com, REJECT
+host, adstats.tencentvideo.com, REJECT
+host, info6.video.qq.com, REJECT
+host-suffix, gdtimg.com, REJECT
+host-suffix, ugdtimg.com, REJECT
+host, h.trace.qq.com, reject
+host, cloud.bugly.qq.com, reject
+host, ios.bugly.qq.com, reject
+host, mazu.m.qq.com, reject
+host, mi.gdt.qq.com, reject
