@@ -158,6 +158,11 @@ host, pubgw.api.ddxq.mobi, reject
 
 #Eleme
 host, h-adashx.ut.ele.me, reject
+host-suffix, app-monitor.ele.me, reject
+host-suffix, client-api.ele.me, reject
+host-suffix, grand.ele.me, reject
+host-suffix, mobile-pubt.ele.me, reject
+host-suffix, newton-api.ele.me, reject
 
 #GaoDe Map
 host, mdap.alipay.com, reject
@@ -167,8 +172,18 @@ host, www.qchannel01.cn, reject
 host, adashx.ut.amap.com, reject
 host, gaode-acs.m.taobao.com, reject
 host, xpis-xcdn.youku.com, reject
-host, logs.amap.com, reject
-host, dualstack-logs.amap.com, reject
+#host, restapi.amap.com, reject
+host-suffix, adiu.amap.com, reject
+host, aboard.apilocate.amap.com, reject
+host, apiinit.amap.com, reject
+host, icloud-amap.com, reject
+host-suffix, dualstack-logs.amap.com, reject
+host-suffix, logs.amap.com, reject
+host-suffix, optimus-ads.amap.com, reject
+host-suffix, page.amap.com, reject
+host, optimus-ads.amap.com.w.alikunlun.com, reject
+host-suffix, shouji.sougou.com, reject
+host-suffix, u51.me, reject
 
 # Google
 host, googleads.g.doubleclick-cn.net, reject
