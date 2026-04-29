@@ -214,52 +214,6 @@ host, adashx.m.taobao.com, reject
 # UnionPay
 host, analytics.95516.com, reject
 
-# Weibo
-host-keyword, fastimage.uve.weibo.com, reject
-host-keyword, adimg.uve.weibo.com, reject
-host-keyword, adimg.vue.weibo.com, reject
-host-keyword, alitui.weibo.com, reject
-host-keyword, biz.weibo.com, reject
-host-keyword, c.biz.weibo.com, reject
-host-keyword, c.wcpt.biz.weibo.com, reject
-host-keyword, click.uve.weibo.com, reject
-host-keyword, dp.im.weibo.cn, reject
-host-keyword, dsp.edm.weibo.cn, reject
-host-keyword, game.weibo.cn, reject
-host-keyword, game.weibo.com, reject
-host-keyword, gw5.push.mcp.weibo.cn, reject
-host-keyword, gw6.push.mcp.weibo.cn, reject
-host-keyword, m.game.weibo.cn, reject
-host-keyword, promote.biz.weibo.cn, reject
-host-keyword, s.alitui.weibo.com, reject
-host-keyword, sdkapp.uve.weibo.com, reject
-host-keyword, tui.weibo.com, reject
-host-keyword, wax.weibo.com, reject
-host-keyword, wbapp.uve.weibo.com, reject
-host-keyword, weibomingzi.com, reject
-host-keyword, widget.weibo.com, reject
-host-keyword, zc.biz.weibo.com, reject
-host-keyword, zymo.mps.weibo.com, reject
-host-keyword, ad.weibo.com, reject
-host-keyword, adstrategy.biz.weibo.com, reject
-host-keyword, s.weibo.com, reject
-host-keyword, vs.biz.weibo.com, reject
-host, adimg.uve.weibo.com, reject
-host, adimg.vue.weibo.com, reject
-host-suffix, adimg.uve.weibo.com, reject
-host-suffix, adimg.vue.weibo.com, reject
-host-suffix, alitui.weibo.com, reject
-host-suffix, biz.weibo.com, reject
-host-suffix, game.weibo.cn, reject
-host-suffix, game.weibo.com, reject
-host-suffix, gw5.push.mcp.weibo.cn, reject
-host-suffix, gw6.push.mcp.weibo.cn, reject
-host-suffix, promote.biz.weibo.cn, reject
-host-suffix, s.alitui.weibo.com, reject
-host-suffix, sdkapp.uve.weibo.com, reject
-host-suffix, weibomingzi.com, reject
-host-suffix, zymo.mps.weibo.com, reject
-
 #Wechat AD
 HOST-SUFFIX,ad.weixin.qq.com,REJECT
 host-suffix,wxs.qq.com,REJECT
@@ -280,6 +234,3 @@ host, t-ads.xiaohongshu.com, reject
 
 #萤石
 host, log.ys7.com, reject
-
-# YouTube
-host, ads.youtube.com, reject
