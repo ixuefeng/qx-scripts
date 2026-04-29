@@ -1,0 +1,134 @@
+# Global
+host-keyword, facebook, Global
+host-keyword, github, Global
+host-keyword, gmail, Global
+host-keyword, google, Global
+host-keyword, instagram, Global
+host-keyword, onedrive, Global
+host-keyword, paypal, Global
+host-keyword, porn, Global
+host-keyword, spotify, Global
+host-keyword, spotify.com, Global
+host-keyword, telegram, Global
+host-keyword, tesla, Global
+host-keyword, twimg, Global
+host-keyword, twitter, Global
+host-keyword, youtube, Global
+host-keyword, tiktok, Global
+user-agent, Instagram*, Global
+user-agent, OneDrive*, Global
+user-agent, PayPal*, Global
+user-agent, Spotify*, Global
+user-agent, TikTok*, Global
+user-agent, YouTube*, Global
+host-suffix, cloudapp.azure.com, Global
+host-suffix, wikipedia.org, Global
+host-suffix, zenomedia.com, Global
+host-suffix, scmp.com, Global
+host, api.revenuecat.com, Global
+host-suffix, oaiusercontent.com, Global
+ip-cidr, 34.102.215.99/32, Global
+
+# cnn/wsj/reuters etc.
+host-suffix, wsj.com, Global
+host-suffix, reuters.com, Global
+host-suffix, cnn.com, Global
+host-suffix, cdp-dev.cnn.com, Global
+host-suffix, cnn.io, Global
+
+# Google
+host-suffix, app-analytics-services.com, Global
+host-suffix, gstatic.com, Global
+
+# Grok / OpenAI
+host, grok.com, Global
+host-suffix, x.ai, Global
+host-suffix, x.com, Global
+host-suffix, openai.com, Global
+host-suffix, chatgpt.com, Global
+host, assets.grok.com, Global
+host, browser-intake-datadoghq.com, Global
+
+# Imgur
+host, i.imgur.com, Global
+
+# Telegram
+ip-cidr, 149.154.165.111/32, Global
+ip-cidr, 149.154.167.41/32, Global
+ip-cidr, 149.154.167.50/32, Global
+ip-cidr, 149.154.167.222/32, Global
+ip-cidr, 149.154.171.5/32, Global
+ip-cidr, 149.154.175.50/32, Global
+ip-cidr, 149.154.175.53/32, Global
+ip-cidr, 149.154.175.60/32, Global
+ip-cidr, 91.108.56.197/32, Global
+ip-cidr, 95.161.76.100/32, Global
+
+# Tiktok
+HOST,lf16-effectcdn.byteeffecttos-g.com, Global
+HOST,lf16-pkgcdn.pitaya-clientai.com, Global
+HOST,p16-tiktokcdn-com.akamaized.net, Global
+HOST,trae-api-sg.mchost.guru, Global
+HOST-SUFFIX,bytedapm.com, Global
+HOST-SUFFIX,bytegecko-i18n.com, Global
+HOST-SUFFIX,byteintlapi.com, Global
+HOST-SUFFIX,byteoversea.com, Global
+HOST-SUFFIX,capcut.com, Global
+HOST-SUFFIX,ibytedtos.com, Global
+HOST-SUFFIX,ibyteimg.com, Global
+HOST-SUFFIX,ipstatp.com, Global
+HOST-SUFFIX,isnssdk.com, Global
+HOST-SUFFIX,marscode.com, Global
+HOST-SUFFIX,muscdn.com, Global
+HOST-SUFFIX,musical.ly, Global
+HOST-SUFFIX,sgpstatp.com, Global
+HOST-SUFFIX,snssdk.com, Global
+HOST-SUFFIX,tik-tokapi.com, Global
+HOST-SUFFIX, proxy.com, Global
+HOST-SUFFIX, proxycdn-us.com, Global
+HOST-SUFFIX, proxycdn.com, Global
+HOST-SUFFIX, proxyd.net, Global
+HOST-SUFFIX, proxyd.org, Global
+HOST-SUFFIX, proxymusic.app, Global
+HOST-SUFFIX, proxyv.com, Global
+HOST-SUFFIX, proxyv.us, Global
+HOST-SUFFIX, trae.ai, Global
+HOST-SUFFIX, ttwebview.com, Global
+HOST-KEYWORD, musical.ly, Global
+HOST-KEYWORD, tiktok, Global
+USER-AGENT, TikTok*, Global
+ip-cidr, 2.17.106.9/32, Global
+ip-cidr, 34.36.65.236/32, Global
+ip-cidr, 34.54.11.188/32, Global
+ip-cidr, 34.95.101.116/32, Global
+ip-cidr, 34.96.106.127/32, Global
+ip-cidr, 34.107.238.235/32, Global
+ip-cidr, 34.149.173.23/32, Global
+ip-cidr, 34.117.0.0/16, Global
+ip-cidr, 34.102.164.249/32, Global
+ip-cidr, 34.160.231.76/32, Global
+ip-cidr, 138.113.223.37/32, Global
+ip-cidr, 167.82.86.73/32, Global
+ip-cidr, 71.18.0.0/16, Global
+ip-cidr, 199.232.234.73/32, Global
+ip-cidr, 23.5.165.0/24, Global
+ip-cidr, 23.46.230.0/24, Global
+ip-cidr, 23.59.0.0/16, Global
+ip-cidr, 23.75.23.33/32, Global
+ip-cidr, 23.61.202.25/32, Global
+ip-cidr, 23.210.250.0/24, Global
+ip-cidr, 23.220.203.9/32, Global
+
+# Togostar
+host, togostar.top, Global
+
+
+# V2EX
+host, i.v2ex.co, Global
+host, cdn.v2ex.com, Global
+host, www.v2ex.com, Global
+
+# YouTube
+host, yt3.ggpht.com, Global
+host, i.ytimg.com, Global
+host, yt4.ggpht.com, Global

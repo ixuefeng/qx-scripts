@@ -36,12 +36,20 @@ host, api.segment.io, reject
 host-suffix, tec73.com, reject
 host-suffix, mmstat.com, reject
 host-suffix, sogou.com, reject
+
 # 友盟广告
 host-suffix, umeng.com, reject
 host-suffix, umengcloud.com, reject
+
 # 字节穿山甲广告
 host-suffix, pangolin-sdk-toutiao.com, reject
 host-suffix, pangolin-sdk-toutiao1.com, reject
+
+#个推
+host-suffix, gepush.com, reject
+host-suffix, getui.com, reject
+host-suffix, getui.net, reject
+
 # Tencent
 ip-cidr, 119.29.29.90/32, REJECT
 host, ad.tencentvideo.com, REJECT
@@ -54,3 +62,215 @@ host, cloud.bugly.qq.com, reject
 host, ios.bugly.qq.com, reject
 host, mazu.m.qq.com, reject
 host, mi.gdt.qq.com, reject
+
+#Apple
+host, mesu.apple.com, reject
+host-suffix, iadsdk.apple.com, reject
+host, api-adservices.apple.com, reject
+
+#BaiDu Map
+host, 180-158-54-175-yf17949f.yingt.asia, reject
+host, ww1.dler.best, reject
+host, oss.cdn.aiclk.com, reject
+host, 223-88-17-17-yf9bf07f.yingt.asia, reject
+host, integralwall.baidu.com, reject
+host, ulogimap.baidu.com, reject
+host, usr-api.yunxish.com, reject
+host, entry-su1.ubixioe.com, reject
+host, mbd.baidu.com, reject
+host, bgg.baidu.com, reject
+host, afd.baidu.com, reject
+host, afdconf.baidu.com, reject
+host, api.yunxish.com, reject
+host, cpc-service-square.iggrowth.cn, reject
+host, logrcv.yunxish.com, reject
+host, tracelog-debug.yunxish.com, reject
+host, service.yunxish.com, reject
+host, sdk.1rtb.net, reject
+host, iosid.zhangyuyidong.cn, reject
+host, sdk.zhangyuyidong.cn, reject
+host, adx-cfg-u1.ubixioe.com, reject
+host, aispace.baidu.com, reject
+host, huiduapi.nuomi.com, reject
+host, nsclick.baidu.com, reject
+
+# Dingdong Maicai
+host, trackerfeed.ddxq.mobi, reject
+host, trackercollect.ddxq.mobi, reject
+host, monitorcollect.ddxq.mobi, reject
+host, pubgw.api.ddxq.mobi, reject
+
+#Eleme
+host, h-adashx.ut.ele.me, reject
+
+#GaoDe Map
+host, mdap.alipay.com, reject
+host, ali.wosms.cn, reject
+host, i.qchannel03.cn, reject
+host, www.qchannel01.cn, reject
+host, adashx.ut.amap.com, reject
+host, gaode-acs.m.taobao.com, reject
+host, xpis-xcdn.youku.com, reject
+host, logs.amap.com, reject
+host, dualstack-logs.amap.com, reject
+
+# Google
+host, googleads.g.doubleclick-cn.net, reject
+host, pagead.googleadservices-cn.com, reject
+host, pagead1.googleadservices-cn.com, reject
+host, pagead2.googleadservices-cn.com, reject
+host, pagead3.googleadservices-cn.com, reject
+host, pagead.googlesyndication-cn.com, reject
+host, pagead1.googlesyndication-cn.com, reject
+host, pagead2.googlesyndication-cn.com, reject
+host, pagead3.googlesyndication-cn.com, reject
+host, safebrowsing.googleapis.com, reject
+host-suffix, google-analytics.com, reject
+host-suffix, doubleclick.net, reject
+host-suffix, googleadservices.com, reject
+host-suffix, googleadsserving.cn, reject
+host-suffix, googlesyndication.com, reject
+host-suffix, googletagservices.com, reject
+host-suffix, googletagmanager.com, reject
+host-suffix, video-ad-stats.googlesyndication.com, reject
+host-suffix, pagead.google.com, reject
+host-suffix, pagead.l.google.com, reject
+host-suffix, pagead2.googlesyndication.com, reject
+host-suffix, pagead-tpc.l.google.com, reject
+host-suffix, mobileads.google.com, reject
+host-suffix, googlecommerce.com, reject
+host-suffix, blaaaa12.googlecode.com, reject
+host-suffix, badad.googleplex.com, reject
+host-suffix, afs.googlesyndication.com, reject
+host-suffix, afd.l.google.com, reject
+host-suffix, www.googleadservices.com, reject
+host-suffix, www.google-analytics.com, reject
+host-suffix, analytics.google.com, reject
+host-suffix, analytics.googleapis.com, reject
+
+
+#JingDong
+host, second-floor-pro.pf.jd.com, reject
+host, mllog.jd.com, reject
+host, ccfjma.m.jd.com, reject
+host, perf.m.jd.com, reject
+host, anti-sdk-report.m.jd.com, reject
+host, anti-sdk-ccs-pre.m.jd.com, reject
+host-suffix, dsap.jd.com, reject
+host-suffix, jddebug.com, reject
+host, discover.300hu.com, reject
+host, vod.300hu.com, reject
+host, xlog.jd.com, reject
+host, janapi.jd.com, reject
+host, blackhole.m.jd.com, reject
+host, nakedeye.360buyimg.com, reject
+
+#MeiTuan
+host, data-sdk-uuid-log.d.meituan.net, reject
+
+# Nanjing Bank
+host, tingyun.njcb.com.cn, reject
+#host, static.njcb.com.cn, reject
+
+#企查查
+host, mt.qcc.com, reject
+#host, verify.qcc.com, reject
+#host, apph5.qichacha.com, reject
+host, sentry.kezhaozhao.com, reject
+host, sylogs.cl2009.com, reject
+host, sysdk.cl2009.com, reject
+host, sy.cl2m.cn, reject
+host, up.qcc.com, reject
+host, statistics.qcc.com, reject
+
+# Taobao
+host, h-adashx.ut.taobao.com, reject
+host, tunion-api.m.taobao.com, reject
+host-suffix, apoll.m.taobao.com, reject
+host-suffix, h-adashx.ut.taobao.com, reject
+host-suffix, w.m.taobao.com, reject
+host-suffix, ai.m.taobao.com, reject
+host-suffix, re.m.taobao.com, reject
+host-suffix, agoodm.m.taobao.com, reject
+host-suffix, ai.taobao.com, reject
+host-suffix, api.waptest.taobao.com, reject
+host-suffix, temai.taobao.com, reject
+host-suffix, unitacs.m.taobao.com, reject
+host-suffix, acs4baichuan.m.taobao.com, reject
+host-suffix, adashbc.ut.taobao.com, reject
+host-suffix, adashxgc.ut.taobao.com, reject
+host-suffix, adashx4yt.m.taobao.com, reject
+host-suffix, tunion-api.m.taobao.com, reject
+host-suffix, m-adash.m.taobao.com, reject
+host-suffix, adashbc.m.taobao.com, reject
+host, alimelog.taobao.com, reject
+host, dsm-watermark-service-center.oss-cn-zhangjiakou.aliyuncs.com, reject
+host, err.taobao.com, reject
+host, adashx.m.taobao.com, reject
+
+# UnionPay
+host, analytics.95516.com, reject
+
+# Weibo
+host-keyword, fastimage.uve.weibo.com, reject
+host-keyword, adimg.uve.weibo.com, reject
+host-keyword, adimg.vue.weibo.com, reject
+host-keyword, alitui.weibo.com, reject
+host-keyword, biz.weibo.com, reject
+host-keyword, c.biz.weibo.com, reject
+host-keyword, c.wcpt.biz.weibo.com, reject
+host-keyword, click.uve.weibo.com, reject
+host-keyword, dp.im.weibo.cn, reject
+host-keyword, dsp.edm.weibo.cn, reject
+host-keyword, game.weibo.cn, reject
+host-keyword, game.weibo.com, reject
+host-keyword, gw5.push.mcp.weibo.cn, reject
+host-keyword, gw6.push.mcp.weibo.cn, reject
+host-keyword, m.game.weibo.cn, reject
+host-keyword, promote.biz.weibo.cn, reject
+host-keyword, s.alitui.weibo.com, reject
+host-keyword, sdkapp.uve.weibo.com, reject
+host-keyword, tui.weibo.com, reject
+host-keyword, wax.weibo.com, reject
+host-keyword, wbapp.uve.weibo.com, reject
+host-keyword, weibomingzi.com, reject
+host-keyword, widget.weibo.com, reject
+host-keyword, zc.biz.weibo.com, reject
+host-keyword, zymo.mps.weibo.com, reject
+host-keyword, ad.weibo.com, reject
+host-keyword, adstrategy.biz.weibo.com, reject
+host-keyword, s.weibo.com, reject
+host-keyword, vs.biz.weibo.com, reject
+host, adimg.uve.weibo.com, reject
+host, adimg.vue.weibo.com, reject
+host-suffix, adimg.uve.weibo.com, reject
+host-suffix, adimg.vue.weibo.com, reject
+host-suffix, alitui.weibo.com, reject
+host-suffix, biz.weibo.com, reject
+host-suffix, game.weibo.cn, reject
+host-suffix, game.weibo.com, reject
+host-suffix, gw5.push.mcp.weibo.cn, reject
+host-suffix, gw6.push.mcp.weibo.cn, reject
+host-suffix, promote.biz.weibo.cn, reject
+host-suffix, s.alitui.weibo.com, reject
+host-suffix, sdkapp.uve.weibo.com, reject
+host-suffix, weibomingzi.com, reject
+host-suffix, zymo.mps.weibo.com, reject
+
+#Wechat AD
+HOST-SUFFIX,ad.weixin.qq.com,REJECT
+host-suffix,wxs.qq.com,REJECT
+host,wxa.wxs.qq.com,REJECT
+host,wximg.wxs.qq.com,REJECT
+host,wxsmw.wxs.qq.com,REJECT
+
+#下厨房
+host, s.chuimg.com, reject
+HOST, track.xiachufang.com, REJECT
+host, trackbeat.xiachufang.com, reject
+
+#萤石
+host, log.ys7.com, reject
+
+# YouTube
+host, ads.youtube.com, reject
