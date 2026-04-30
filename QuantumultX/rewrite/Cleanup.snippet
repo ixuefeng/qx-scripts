@@ -565,7 +565,8 @@
 ^https?:\/\/edith\.xiaohongshu\.com\/api\/sns\/v\d+\/note\/guide\? url reject-dict
 ^https?:\/\/edith\.xiaohongshu\.com\/api\/sns\/v\d+\/note\/detailfeed\/preload\? url reject-dict
 ^https?:\/\/edith\.xiaohongshu\.com\/api\/sns\/v\d+\/guide\/user_banner url reject-dict
-^https?:\/\/www\.xiaohongshu\.com\/api\/sns\/(v\d+\/ads\/resource|v\d+\/hey\/\w+\/hey_gallery) url reject-dict
+#^https?:\/\/www\.xiaohongshu\.com\/api\/sns\/(v\d+\/ads\/resource|v\d+\/hey\/\w+\/hey_gallery) url reject-dict
+^https?:\/\/www\.xiaohongshu\.com\/api\/sns\/(v\d+\/ads url reject-dict
 # 搜索页
 ^https?:\/\/edith\.xiaohongshu\.com\/api\/sns\/v\d+\/search\/(banner_list|hot_list) url script-response-body https://github.com/fmz200/wool_scripts/raw/main/Scripts/xiaohongshu/xiaohongshu.js
 ^https?:\/\/edith\.xiaohongshu\.com\/api\/sns\/v\d+\/search\/(hint|trending)\? url script-response-body https://github.com/fmz200/wool_scripts/raw/main/Scripts/xiaohongshu/xiaohongshu.js
@@ -586,6 +587,7 @@
 ^https?:\/\/edith\.xiaohongshu\.com\/api\/sns\/v\d\/note\/comment\/list url response-body red_id response-body fmz200
 # 评论区图片水印 (实验功能可能无效)
 ^https?:\/\/ci\.xiaohongshu\.com\/system_config\/watermark url reject-img
+^https://edith\.xiaohongshu\.com/api/sns/user_cache/report_tracking url reject
 
 # 建设银行
 ^https?://yunbusiness\.ccb\.com/basic_service/txCtrl\?txcode=A3341AB04 url script-response-body https://raw.githubusercontent.com/fmz200/wool_scripts/main/Scripts/ccbLife/ccbLifeAds.js
