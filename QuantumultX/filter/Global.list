@@ -53,6 +53,7 @@ host, browser-intake-datadoghq.com, Global
 host, i.imgur.com, Global
 
 # Telegram
+host-suffix, t.me, Global
 ip-cidr, 149.154.165.111/32, Global
 ip-cidr, 149.154.167.41/32, Global
 ip-cidr, 149.154.167.50/32, Global
