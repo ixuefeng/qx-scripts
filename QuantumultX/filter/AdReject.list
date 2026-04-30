@@ -165,6 +165,7 @@ host-suffix, mobile-pubt.ele.me, reject
 host-suffix, newton-api.ele.me, reject
 
 #GaoDe Map
+host-suffix, optimus-ads.amap.com, direct
 host, mdap.alipay.com, reject
 host, ali.wosms.cn, reject
 host, i.qchannel03.cn, reject
@@ -179,7 +180,6 @@ host, apiinit.amap.com, reject
 host, icloud-amap.com, reject
 host-suffix, dualstack-logs.amap.com, reject
 host-suffix, logs.amap.com, reject
-host-suffix, optimus-ads.amap.com, reject
 host-suffix, page.amap.com, reject
 host, optimus-ads.amap.com.w.alikunlun.com, reject
 host-suffix, shouji.sougou.com, reject
