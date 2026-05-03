@@ -32,6 +32,7 @@ ip-cidr, 34.102.215.99/32, Global
 
 #Trust Wallet
 host-suffix, trustwallet.com, Global
+host-suffix, walletconnect.com, Global
 
 # cnn/wsj/reuters etc.
 host-suffix, wsj.com, Global
