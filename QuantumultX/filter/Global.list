@@ -30,6 +30,9 @@ host-suffix, oaiusercontent.com, Global
 host-suffix, ddgksf2013.top, Global
 ip-cidr, 34.102.215.99/32, Global
 
+#Trust Wallet
+host-suffix, trustwallet.com, Global
+
 # cnn/wsj/reuters etc.
 host-suffix, wsj.com, Global
 host-suffix, reuters.com, Global
