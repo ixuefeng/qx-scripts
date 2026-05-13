@@ -41,6 +41,7 @@ host-suffix, reuters.com, Global
 host-suffix, cnn.com, Global
 host-suffix, cdp-dev.cnn.com, Global
 host-suffix, cnn.io, Global
+host-suffix, fox.com, Global
 
 # Google
 host-suffix, app-analytics-services.com, Global
