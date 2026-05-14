@@ -44,6 +44,7 @@ host-suffix, cnn.io, Global
 host-suffix, fox.com, Global
 host-suffix, claspws.tv, Global
 host-suffix, foxnews.com, Global
+host-suffix, nbcnews.com, Global
 
 # Google
 host-suffix, app-analytics-services.com, Global
