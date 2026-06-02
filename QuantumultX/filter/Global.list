@@ -47,6 +47,7 @@ host-suffix, foxnews.com, Global
 host-suffix, nbcnews.com, Global
 host-suffix, bbc.com, Global
 host-suffix, bbc.co.uk, Global
+host-suffix, bbci.co.uk, Global
 
 # Google
 host-suffix, app-analytics-services.com, Global
