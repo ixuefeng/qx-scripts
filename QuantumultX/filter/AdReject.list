@@ -221,6 +221,8 @@ host-suffix, www.google-analytics.com, reject
 host-suffix, analytics.google.com, reject
 host-suffix, analytics.googleapis.com, reject
 
+#JieMian
+host, ad.jiemian.com, reject
 
 #JingDong
 host, second-floor-pro.pf.jd.com, reject
