@@ -38,6 +38,7 @@ host-suffix, mmstat.com, reject
 host-suffix, sogou.com, reject
 host-suffix, amazon-adsystem.com, reject
 host-suffix, adnxs.com, reject
+host-suffix, uyunad.com, reject
 
 # 友盟广告
 host-suffix, umeng.com, reject
