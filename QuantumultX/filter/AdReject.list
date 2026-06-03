@@ -221,6 +221,10 @@ host-suffix, www.google-analytics.com, reject
 host-suffix, analytics.google.com, reject
 host-suffix, analytics.googleapis.com, reject
 
+#HuXiu
+host, api-ad-product.huxiu.com, reject
+host, api-ms-log.huxiu.com, reject
+
 #JieMian
 host, ad.jiemian.com, reject
 
