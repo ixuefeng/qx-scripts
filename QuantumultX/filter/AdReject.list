@@ -279,6 +279,9 @@ host-suffix, d.meituan.net, reject
 #米家
 host, sdkconfig.ad.xiaomi.com, reject
 
+#MobTech
+hostsuffix, mob.com, reject
+
 # Nanjing Bank
 host, tingyun.njcb.com.cn, reject
 #host, static.njcb.com.cn, reject
