@@ -262,7 +262,7 @@ IP-CIDR, 101.124.19.122/32, reject
 IP6-CIDR, 2402:db40:5100:1011::5/128, reject
 
 #JiGuang
-host-suffix, jiguang.cn reject
+host-suffix, jiguang.cn, reject
 
 #MeiTuan
 host-suffix, meituan.xn, reject
